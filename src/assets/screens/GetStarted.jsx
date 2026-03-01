@@ -5,6 +5,8 @@ import image2 from '../image2.webp';
 import image3 from '../image3.webp';
 import image4 from '../image4.webp';
 import SplitText from '../splittext.jsx';
+import { Link } from 'react-router';
+
 
 
 
@@ -62,6 +64,7 @@ export default function GetStarted() {
             <img src={image} className='h-58 w-70 overflow-hidden cursor-pointer' alt="" srcset="" />
           </div>
           <div className='px-2 absolute overflow-hidden self-center items-center justify-evenly '>
+            
             <button className='bg-green-50 rounded-2xl w-65 h-12 space-x-25 overflow-hidden cursor-pointer'>
               <span className='font-medium text-black text-xl'>Age:18-29</span>
               <button><img src={Arrow} width={20} alt="" srcset="" />  </button>
@@ -75,11 +78,11 @@ export default function GetStarted() {
             <img src={image2} className='h-58 w-70 overflow-hidden cursor-pointer' alt="" srcset="" />
           </div>
           <div className='px-2 absolute overflow-hidden self-center items-center justify-evenly '>
-
+            <Link to={'/Agee'}>
             <button className='bg-green-50 rounded-2xl w-65 h-12 space-x-25 overflow-hidden cursor-pointer'>
               <span className='font-medium text-black text-xl'>Age:30-39</span>
               <button ><img src={Arrow} width={20} alt="" srcset="" />  </button>
-            </button>
+            </button></Link>
           </div>
         </div>
 
