@@ -10,6 +10,10 @@ import image2 from "./assets/image2.webp";
 import image3 from "./assets/image3.webp";
 import image4 from "./assets/image4.webp";
 import image5 from "./assets/Ageeimage.png";
+import Age from "./assets/screens/Age.jsx";
+import Age3 from "./assets/screens/Age3.jsx";
+import Age4 from "./assets/screens/Age4.jsx";
+import Age3image from "./assets/Age3image.png";
 
 function App() {
 
@@ -22,6 +26,9 @@ function App() {
   <Route path="/" element={<Home></Home>}></Route>
    <Route path="/getstarted" element={<GetStarted></GetStarted>}></Route>
     <Route path="/Agee" element={<Agee></Agee>}></Route>
+    <Route path="/Age" element={<Age></Age>}></Route>
+    <Route path="/Age3" element={<Age3></Age3>}></Route>
+     <Route path="/Age4" element={<Age4></Age4>}></Route>
 </Routes>
 </BrowserRouter>
     

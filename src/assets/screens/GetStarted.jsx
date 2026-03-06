@@ -4,7 +4,7 @@ import Arrow from '../Arrow(1).svg';
 import image2 from '../image2.webp';
 import image3 from '../image3.webp';
 import image4 from '../image4.webp';
-import SplitText from '../splittext.jsx';
+import SplitText from '../splitText.jsx';
 import { Link } from 'react-router';
 
 
@@ -16,7 +16,7 @@ const handleAnimationComplete = () => {
 
 export default function GetStarted() {
   return (
-    <body className='bg-gradient-to-br from-black via-gray-900 to-black text-white  flex-col 
+    <body className=' react(useffect) from-black via-gray-900 to-black text-white  flex-col 
   items-center justify-center '>
       <section className='flex py-2 items-center justify-center gap-285 max-h-11/12'>
         <div className='top-6 left-8 text-2xl font-semibold cursor-pointer'>
@@ -65,10 +65,10 @@ export default function GetStarted() {
           </div>
           <div className='px-2 absolute overflow-hidden self-center items-center justify-evenly '>
             
-            <button className='bg-green-50 rounded-2xl w-65 h-12 space-x-25 overflow-hidden cursor-pointer'>
+        <Link to={'/Age'}> <button className='bg-green-50 rounded-2xl w-65 h-12 space-x-25 overflow-hidden cursor-pointer'>
               <span className='font-medium text-black text-xl'>Age:18-29</span>
               <button><img src={Arrow} width={20} alt="" srcset="" />  </button>
-            </button>
+            </button></Link>   
           </div>
 
         </div>
@@ -93,10 +93,10 @@ export default function GetStarted() {
           </div>
           <div className='px-2 absolute overflow-hidden self-center items-center justify-evenly '>
 
-            <button className='bg-green-50 rounded-2xl w-65 h-12 space-x-25 overflow-hidden cursor-pointer'>
+          <Link to={"/Age3"}> <button className='bg-green-50 rounded-2xl w-65 h-12 space-x-25 overflow-hidden cursor-pointer'>
               <span className='font-medium text-black text-xl'>Age:40-49</span>
               <button><img src={Arrow} width={20} alt="" srcset="" />  </button>
-            </button>
+            </button></Link> 
           </div>
         </div>
 
@@ -107,10 +107,10 @@ export default function GetStarted() {
           </div>
           <div className='px-2 absolute overflow-hidden self-center items-center justify-evenly '>
 
-            <button className='bg-green-50 rounded-2xl w-65 h-12 space-x-25 overflow-hidden cursor-pointer'>
+           <Link to={'/Age4'}><button className='bg-green-50 rounded-2xl w-65 h-12 space-x-25 overflow-hidden cursor-pointer'>
               <span className='font-medium text-black text-xl'>Age:50</span>
               <button><img src={Arrow} width={20} alt="" srcset="" />  </button>
-            </button>
+            </button></Link>
           </div>
         </div>
 
