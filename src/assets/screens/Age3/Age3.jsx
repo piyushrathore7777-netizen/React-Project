@@ -1,5 +1,6 @@
 import React from "react";
-import image5 from "../Ageeimage.png";
+import image5 from "../Age3image.png";
+import { Link } from "react-router";
 
 
 
@@ -33,15 +34,13 @@ export default (CardA) => {
         <section className="flex items-center justify-evenly mt-10">
           <div className="flex justify-evenly  mt-4 space-x-10">
           <div className="py-22">
-            <p className="text-4xl font-semibold">Looks like you have the <br /> ectomorph body type</p>
-            <p className="text-xl py-4">You might struggle to gain weight or muscle, but that doesn’t <br />
-             mean you can’t do it. All you need is the right approach.</p>
-             <p className="text-xl">Your plan is designed to help you get in shape without stress.</p>
+            <p className="text-5xl font-semibold">Over 822,000 men</p>
+            <p className="text-xl py-4">in their 40s have already tried our <br/> Calisthenics Workout Plan</p>
           </div>
 
           <div className="justify-around items-center h-20">
         
-              <img src={image5} className="h-100 w-130" alt="" srcset="" />
+              <img src={image5} className="h-80 w-100" alt="" srcset="" />
           </div>
           </div>
         </section>
@@ -53,7 +52,8 @@ export default (CardA) => {
           <hr></hr>
           </div>
           <div className="px-140 py-6 ">
-          <button className="bg-amber-50 w-90 rounded-full h-12 text-black font-semibold cursor-pointer">CONTINUE</button>
+          <Link to={'/Age3c'}><button className="bg-amber-50 w-90 rounded-full h-12 text-black font-semibold cursor-pointer">CONTINUE</button>
+           </Link>
           </div>
         </section>
 
@@ -61,3 +61,4 @@ export default (CardA) => {
     </body>
   )
 }
+

@@ -1,12 +1,8 @@
 import React from "react";
-import image5 from "../Age3image.png";
+import imageYes from '../imageYes.webp';
 
-
-
-
-export default (CardA) => {
+export default (params) => {
   return (
-
     <body className='bg-black from-black via-gray-900 to-black text-white  flex-col 
   items-center justify-center '>
         <nav className="flex items-center justify-between p-6">
@@ -30,34 +26,21 @@ export default (CardA) => {
         </nav>
         <hr></hr>
 
-        <section className="flex items-center justify-evenly mt-10">
-          <div className="flex justify-evenly  mt-4 space-x-10">
-          <div className="py-22">
-            <p className="text-4xl font-semibold">Achieve greater results with our <br /> plan</p>
-            <p className="text-xl py-4">Our Calisthenics workouts are simple, fun, and fit into the <br /> busiest schedule.</p>
-             <p className="text-xl">We'll consider your fitness level to help you reach your goal <br /> faster.</p>
+        <section className="flex justify-center items-center mb-2 py-15 gap-20">
+          <div>
+            <h1 className="text-4xl font-semibold">You're going to crush this!</h1>
+            <p className="text-xl font-semibold">Our Calisthenics plan is an effective fitness option for all <br /> levels.</p>
+            <p className="text-xl font-semibold">We will help you get in shape at home using zero equipment!</p>
           </div>
-
-          <div className="justify-around items-center h-20">
-        
-              <img src={image5} className="h-100 w-130" alt="" srcset="" />
-          </div>
+          <div>
+            <img src={imageYes} className="h-100" alt="" srcset="" />
           </div>
         </section>
-        
-        
-        
-        <section className="justify-around items-center py-22">
-          <div>
-          <hr></hr>
-          </div>
+        <section>
           <div className="px-140 py-6 ">
           <button className="bg-amber-50 w-90 rounded-full h-12 text-black font-semibold cursor-pointer">CONTINUE</button>
           </div>
         </section>
-
-
     </body>
   )
 }
-

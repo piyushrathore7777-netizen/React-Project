@@ -16,7 +16,7 @@ const handleAnimationComplete = () => {
 
 export default function GetStarted() {
   return (
-    <body className=' react(useffect) from-black via-gray-900 to-black text-white  flex-col 
+    <body className='bg-gray-950 react(useffect) from-black via-gray-900 to-black text-white  flex-col 
   items-center justify-center '>
       <section className='flex py-2 items-center justify-center gap-285 max-h-11/12'>
         <div className='top-6 left-8 text-2xl font-semibold cursor-pointer'>
