@@ -47,12 +47,12 @@ export default (Continue) => {
     {/* <div className=""> */}
     <label className=" flex items-center justify-between w-120 h-15 bg-white text-black px-6 py-3 rounded-xl cursor-pointer hover:scale-105 transition">
       Yes
-      <input type="checkbox" className="accent-black"/>
+     <Link to={'/Age3yes'}> <input type="checkbox" className="accent-black"/></Link>
     </label>
 
     <label className="flex items-center justify-between w-120 h-15 bg-white text-black px-6 py-3 rounded-xl cursor-pointer hover:scale-105 transition">
       No
-      <input type="checkbox" className="accent-black"/>
+      <Link to={'/Age3no'}><input type="checkbox" className="accent-black"/></Link>
     </label>
 
     

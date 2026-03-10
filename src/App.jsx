@@ -3,25 +3,29 @@ import { Link } from 'react-router'
 import { BrowserRouter,Routes,Route } from "react-router";
 import Home from './assets/screens/Home.jsx'
 import GetStarted from "./assets/screens/GetStarted.jsx";
-import Agee from "./assets/screens/Agee/Agee.jsx";
+import Agee from "./assets/screens/Agee.jsx";
 import image1 from "./assets/image1.webp";
 import Arrow from "./assets/Arrow(1).svg";
 import image2 from "./assets/image2.webp";
 import image3 from "./assets/image3.webp";
 import image4 from "./assets/image4.webp";
 import image5 from "./assets/Ageeimage.png";
-import Age from "./assets/screens/Age/Age.jsx";
-import Age3 from "./assets/screens/Age3/Age3.jsx";
+import Age from "./assets/screens/Age.jsx";
+import Age3 from "./assets/screens/Age3.jsx";
 import Age4 from "./assets/screens/Age4.jsx";
 import Age3image from "./assets/Age3image.png";
-import Continue from "./assets/screens/Age/Continue.jsx";
-import Yes from "./assets/screens/Age/Yes.jsx";
-import No from "./assets/screens/Age/No.jsx";
-import Component from "./assets/screens/Age/Component.jsx";
-import Ageec from './assets/screens/Agee/Ageec.jsx';
-import Ageeyes from "./assets/screens/Agee/Ageeyes.jsx";
-import Ageeno from "./assets/screens/Agee/Ageeno.jsx";
-import Agee3c from "./assets/screens/Age3/Agee3c.jsx";
+import Continue from "./assets/screens/Continue.jsx";
+import Yes from "./assets/screens/Yes.jsx";
+import No from "./assets/screens/No.jsx";
+import Component from "./assets/screens/Component.jsx";
+import Ageec from './assets/screens/Ageec.jsx';
+import Ageeyes from "./assets/screens/Ageeyes.jsx";
+import Ageeno from "./assets/screens/Ageeno.jsx";
+import Agee3c from "./assets/screens/Agee3c.jsx";
+// import imageyes from "./assets/screens/imageYes.webp";
+import Age3yes from "./assets/screens/Age3yes.jsx";
+import Age3no from "./assets/screens/Age3no.jsx";
+import Agegoal from "./assets/screens/Agegoal.jsx";
 function App() {
 
   return ( 
@@ -43,6 +47,9 @@ function App() {
      <Route path="/Ageeyes" element={<Ageeyes></Ageeyes>}></Route>
      <Route path="/Ageeno" element={<Ageeno></Ageeno>}></Route>
      <Route path="/Age3c" element={<Agee3c></Agee3c>}></Route>
+     <Route path="/Age3yes" element={<Age3yes></Age3yes>}></Route>
+     <Route path="/Age3no" element={<Age3no></Age3no>}></Route>
+     <Route path="/Agegoal" element={<Agegoal></Agegoal>}></Route>
      
 </Routes>
 </BrowserRouter>

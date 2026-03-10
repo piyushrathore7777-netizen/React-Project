@@ -55,15 +55,7 @@ export default (Continue) => {
      <Link to={'/No'}> <input type="checkbox" className="accent-black"/></Link>
     </label>
 
-    
-    
     </div></center>
-
-  {/* </div> */}
-  <div >
-    {/* <img src={image6} className="h-100 w-80 right-30 absolute" alt="" srcset="" /> */}
-  </div>
-
 </section>
 
   

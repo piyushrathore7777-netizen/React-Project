@@ -1,6 +1,6 @@
 import React from "react";
 import imageYes from '../imageYes.webp';
-
+import { Link } from "react-router";
 export default (params) => {
   return (
     <body className='bg-black from-black via-gray-900 to-black text-white  flex-col 
@@ -38,7 +38,8 @@ export default (params) => {
         </section>
         <section>
           <div className="px-140 py-6 ">
-          <button className="bg-amber-50 w-90 rounded-full h-12 text-black font-semibold cursor-pointer">CONTINUE</button>
+          <Link to={'/Agegoal'}><button className="bg-amber-50 w-90 rounded-full h-12 text-black font-semibold cursor-pointer">CONTINUE</button>
+          </Link>
           </div>
         </section>
     </body>
